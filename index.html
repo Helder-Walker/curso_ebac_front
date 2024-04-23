@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VALIDAÇÃO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>FORMULÁRIO</h1>
+        <h2>Validação de dois Números</h2>
+        <form id="form-deposito">
+            <p>Campo A</p>
+            <input type="number" id="campo-A" required placeholder="N º A" min="0" max="20" />
+            <p>campo B</p>
+            <input type="number" id="campo-B" required placeholder=" N º B" min="1" max="20" />
+            <p class="error-message"></p>
+            <button id="submit" type="submit">Validar</button>
+        </form>
+        <p class="success-message"></p>
+    </div>
+    <script src="int.js"></script>
+</body>
+</html>
