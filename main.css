@@ -1,0 +1,291 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Noah Grotesque', sans-serif;
+}
+
+
+.container {
+    position: sticky;
+    height: 70px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(4, 32, 190);
+    width: 100%;
+    height: 70px;
+}
+
+/* .main-container img {
+    margin-right: 3vw;
+} */
+
+.menu-container {
+    cursor: pointer;
+    width: 32px;
+    height: 30px;
+    margin-right: 3vw;
+}
+
+.menu-container span {
+    width: 80%;
+    height: 3px;
+    margin-top: 4px;
+    background-color: white;
+    display: block;
+    border-radius: 30px;
+}
+
+header div h1 {
+    margin-left: 20px;
+    font-size: 2em;
+    color: white;
+}
+
+header div h2 {
+    color: white;
+    font-size: 1em;
+    margin-right: 2vw;
+}
+
+nav {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(4, 32, 190);
+    align-items: center;
+    display: flex;
+}
+
+nav h3 {
+    margin-left: 2vw;
+    color: white;
+    font-size: 25px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.content {
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+
+.descricao-sobre-h3 {
+    font-size: 1em;
+}
+
+/* .destaque img {
+    width: 35%;
+    height: 35%;
+} */
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    /* mude a largura da div pai: */
+    /* width: 50%; */
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.tag-main {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-container-img {
+    flex: 1;
+    img {
+        width: 100%;
+    }
+}
+
+.justify-container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.div-h2-main {
+    display: block;
+    justify-content: center;
+    /* width: 100%; */
+    font-size: 20px;
+    flex: 1;
+    /* flex: 1; */
+}
+
+.container-flex {
+    display: flex;
+}
+
+.vendidos-h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+}
+
+.conteudo-tenis {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    gap: 1%;
+}
+
+.conteudo-tenis img {
+    width: 70%;
+    height: 70%;
+}
+
+.revolution-h3 {
+    width: 70%;
+}
+
+.airforce-button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(4, 32, 190);
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 72%;
+    display: flex;
+    justify-content: center;
+}
+
+.jordan1-button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(4, 32, 190);
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 72%;
+}
+
+.airmax-button {
+    font-weight: bold;
+    color: white;
+    background-color: rgb(4, 32, 190);
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 72%;
+}
+
+.revolution-button {
+    font-weight: bold;
+    color:white;
+    background-color: rgb(4, 32, 190);
+    border: none;
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 72%;
+}
+
+.airforce-button:hover {
+    padding: 8px;
+    background-color:rgb(4, 32, 190);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.airforce-button:not(:hover) {
+    transition: 0.5s;
+}
+
+.jordan1-button:hover {
+    padding: 8px;
+    background-color:rgb(4, 32, 190);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.jordan1-button:not(:hover) {
+    transition: 0.5s;
+}
+
+.airmax-button:hover {
+    padding: 8px;
+    background-color:rgb(4, 32, 190);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.airmax-button:not(:hover) {
+    transition: 0.5s;
+}
+
+.revolution-button:hover {
+    padding: 8px;
+    background-color:rgb(4, 32, 190);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.revolution-button:not(:hover) {
+    transition: 0.5s;
+}
+
+.viper-h3 {
+    width: 70%;
+}
+
+.rebelion-h3 {
+    width: 70%;
+}
+
+.prophecy-h3 {
+    width: 70%;
+}
+
+.prophecy-13-h3 {
+    width: 70%;
+}
+
+@media screen and (max-width: 1024px) {
+    .conteudo-tenis {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 1%;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main-container img {
+        margin-right: 0vw;
+        width: 100%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    
+
+    .tag-main {
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 641px) {
+    .conteudo-tenis {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1%;
+    }
+}
