@@ -1,0 +1,15 @@
+.btn-css {
+    color: white;
+    background-color: rgb(0, 132, 255);
+    margin-top: 20px;
+    
+}
+
+h1 {
+    margin-left: 40px;
+}
+
+.container {
+    max-width: 50%;
+    margin-top: 40px;
+}
