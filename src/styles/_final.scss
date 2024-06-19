@@ -1,0 +1,35 @@
+.final {
+    padding: 2.3vw;
+    
+    &__content {
+        margin: 0 auto;
+
+        &__text {
+            padding-top: 60px;
+            max-width: 75%;
+            margin: 0 auto;
+        }
+        &__title {
+            text-align: center;
+            padding-bottom: 32px;
+            margin-top: 50px;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            max-height: 376px;
+            max-width: 100%;
+            margin: 0 auto;
+            border-radius: 8px;
+        }
+    }
+
+    &__image {
+        padding-top: 60px;
+        border-radius: 10px;
+        padding-bottom: 0px;
+        max-width: 100%;
+    }
+    
+}

@@ -1,0 +1,23 @@
+.footer {
+    background-color: #274558;
+
+
+    &__container {
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        padding: 2vw;
+        color: white;
+        margin-bottom: 20px;
+
+        a {
+            text-decoration: none;
+            color: white;
+
+            &:hover {
+                color: lighten(blue, 3%);
+            }
+        }
+    }
+}
